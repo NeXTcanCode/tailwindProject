@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-amber-50">
+    <div
+      class="min-h-screen px-6 py-3 flex flex-col gap-16 md:px-10 md:py-7 lg:px-16"
+    >
+      <header class="flex justify-between">
+        <div class="flex items-center justify-center gap-2">
+          <img src="assets/Logo.svg" alt="logo" />
+          <button
+            class="bg-gradient-to-r from-orange-400 to-red-500 text-xs text-white px-2.5 py-1.5 rounded-2xl font-sedan"
+          >
+            Hosterr is hiring
+          </button>
+        </div>
+        <ul
+          class="hidden lg:flex gap-3 justify-between gap-6 font-cursive text-gray-700"
+        >
+          <li><a href="#">Plans</a></li>
+          <li><a href="#"></a>Find Domain</li>
+          <li><a href="#"></a>Why Hosterr</li>
+        </ul>
+        <div
+          class="hidden lg:flex gap-6 justify-center items-center font-sedan"
+        >
+          <a href="#" class="text-gray-700 font-sedan">Sign In</a>
+          <button class="btn">Join Waitlist</button>
+        </div>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <main class="lg:flex">
+        <div
+          class="flex items-center justify-center relative lg:flex-1 lg:order-2 lg:justify-end"
+        >
+          <img
+            src="assets/Blue Shape.svg"
+            alt="blue"
+            class="h-64 -rotate-[60deg] md:h-72 lg:h-96"
+          />
+          <img
+            src="assets/Pink Shape.svg"
+            alt="pink"
+            class="absolute h-64 -rotate-[45deg] md:h-72 lg:h-96"
+          />
+          <img
+            src="assets/Purple Shape.svg"
+            alt="purple"
+            class="absolute h-64 -rotate-[15deg] md:h-72 lg:h-96"
+          />
+          <img
+            src="assets/Hero Image (Model).png"
+            alt="hero"
+            class="absolute h-64 md:h-72 lg:h-96"
+          />
+        </div>
+        <div class="mt-16 space-y-4 lg:flex-1 order-1">
+          <h1 class="text-5xl font-bold leading-tight font-cursive">
+            Host your website in less than 15 minutes.
+          </h1>
+          <p class="font-sedan text-gray-700">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, sed
+            quisquam similique ipsum
+          </p>
+          <form action="" class="flex flex-col gap-4 md:flex-row">
+            <input
+              type="email"
+              placeholder="write valid email"
+              class="rounded-md px-4 py-3 placeholder:text-gray-700 font-sedan"
+            />
+            <button class="btn">Join Waitlist</button>
+          </form>
+
+          <div class="flex gap-2">
+            <img src="assets/Checkmark.svg" alt="Checkmark" />
+            <p class="font-sedan text-gray-700">
+              no span, ever, unsubscribe anytime
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer class="flex flex-col gap-6 md:flex-row justify-between">
+        <ul class="flex gap-10 font-sedan text-gray-700">
+          <li><a href="#fb">Facebook</a></li>
+          <li><a href="#tweet">Twitter</a></li>
+          <li><a href="#insta">Instagram</a></li>
+        </ul>
+        <div class="flex gap-3">
+          <img src="assets/Help Avatar.svg" alt="help" />
+          <div>
+            <p class="font-sedan">have any doubt?</p>
+            <p class="font-cursive text-gray-700">
+              <a href="#talk"></a>Talk to Us!
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
